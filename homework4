@@ -1,4 +1,4 @@
-my_string = input('Привет, что делаешь?')
+my_string = input('Привет, что делаешь?') #учусь писать код
 
 print(len(my_string))
 
