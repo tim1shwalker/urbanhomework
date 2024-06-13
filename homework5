@@ -1,0 +1,29 @@
+immutable_var = (1, 2, 'what', True)
+print('immutable tuple:', immutable_var)
+
+#кортеж относится к неизменяемым типам данных, то означает, что после создания кортеж нельзя изменить, добавить или удалить элементы.
+#immutable_var[0][0]=2
+
+#А если я задам переменной кортеж, в котором будет список, я его смогу изменить внутри кортежа :)
+immutable_var_1 = (['ты', 'я', 'он'], 0, 1, True)
+
+immutable_var_1[0][1] = 'вы'
+
+immutable_var_1[0][0] = 'они'
+
+print('immutable tuple2:', immutable_var_1)
+
+
+muttable_list = [1, 2, 3, 4, True]
+
+muttable_list[-1] = False
+muttable_list[0] = 10
+muttable_list[1] = 11
+muttable_list[2] = 13
+muttable_list[-2] = 16
+
+print('muttable_list:', muttable_list)
+
+
+
+
