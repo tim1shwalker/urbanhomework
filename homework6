@@ -1,0 +1,28 @@
+#1 Zadanie
+my_dict = {'Misha': 26102003 , 'Masha': 31102011}
+
+print('Dict:', my_dict)
+
+print('Existing value:',my_dict.get('Misha'))
+
+print('Not existing value:', my_dict.get('vasya'))
+
+my_dict.update({'alex': 111222, 'dima': 130813})
+
+delete = my_dict.pop('dima')
+
+print('Deleted value:',delete)
+
+print('Modified dictionary:',my_dict)
+
+#2 Zadanie
+my_set = {1, 2, 3, 4, 1, 2, 3, 'is', (1, 2)}
+
+print('Set:', set(my_set))
+
+my_set.add(8)
+my_set.add('is')
+
+my_set.remove(1)
+
+print('Modified set:', my_set)
