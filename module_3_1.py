@@ -11,10 +11,11 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     count_calls()
-    for i in list_to_search:
-        if i == string:
-            return True
-        return False
+    string = string.lower()
+    list_to_search = [item.lower() for item in
+                      list_to_search]
+    return string in list_to_search
+    
 
 
 
