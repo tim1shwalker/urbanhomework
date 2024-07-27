@@ -1,0 +1,9 @@
+def test_function():
+    def inner_function():
+        print("Я в области видимости функции test_function")
+
+    inner_function()
+
+test_function()
+
+inner_function()# Это вызовет ошибку, так как inner_function не доступна вне test_function
